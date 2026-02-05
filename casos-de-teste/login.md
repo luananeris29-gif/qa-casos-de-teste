@@ -1,12 +1,8 @@
-# Caso de Teste - Login
+# Caso de Teste – Login
 
-## Cenário
-Login com dados inválidos
+## Cenário – Login com dados inválidos
 
-## Passos
-1. Acessar tela de login
-2. Inserir senha errada
-3. Clicar em entrar
-
-## Resultado Esperado
-Sistema deve exibir mensagem de erro.
+**Dado** que o usuário está na tela de login  
+**Quando** inserir uma senha incorreta  
+**E** clicar em “Entrar”  
+**Então** o sistema deve exibir uma mensagem de erro informando que o login é inválido
